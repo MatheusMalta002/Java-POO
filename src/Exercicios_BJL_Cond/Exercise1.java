@@ -20,5 +20,6 @@ public class Exercise1 {
             System.out.println("The numbers are equal");
 
         }
+        input.close();
     }
 }
