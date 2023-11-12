@@ -12,7 +12,8 @@ public class Exercise1 {
         int numberFour = input.nextInt();
 
         int sum = numberOne + numberTwo + numberThree + numberFour;
-
         System.out.println("sum result: " + sum);
+
+        input.close();
     }
 }

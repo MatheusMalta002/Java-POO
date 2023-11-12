@@ -11,7 +11,8 @@ public class Exercise2 {
         float score3 = input.nextFloat();
 
         float result = (score1 + score2 + score3) / 3;
-
         System.out.printf("Average result: %.2f%n", result);
+
+        input.close();
     }
 }

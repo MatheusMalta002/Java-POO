@@ -14,8 +14,8 @@ public class Exercise4 {
         int height = input.nextInt();
 
         int areaResult = (base * height) / 2;
-
         System.out.println("area of the triangle: " + areaResult);
 
+        input.close();
     }
 }

@@ -12,7 +12,7 @@ public class Exercise5 {
         while (base == 0) {
             System.out.println("enter a value other than 0!");
             base = input.nextDouble();
-        };
+        }
 
         System.out.println("Enter exponent:");
         double exponent = input.nextInt();
@@ -20,9 +20,11 @@ public class Exercise5 {
         while (exponent == 0) {
             System.out.println("enter a value other than 0!");
             exponent = input.nextDouble();
-        };
-        double result = Math.pow(base, exponent);
+        }
 
+        double result = Math.pow(base, exponent);
         System.out.println("result: " + Math.round(result));
+
+        input.close();
     }
 }

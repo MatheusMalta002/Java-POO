@@ -10,7 +10,8 @@ public class Exercise3 {
         double increase = salary * 0.25;
 
         double newValue = salary + increase;
-
         System.out.printf("The new salary is: %.2f%n", newValue);
+
+        input.close();
     }
 }
